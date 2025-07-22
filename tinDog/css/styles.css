@@ -1,0 +1,186 @@
+/* This is to apply on whole body */
+body{
+    font-family: 'Montserrat',sans-serif; 
+    text-align: center;  
+}
+.container-fluid{
+    padding: 7% 15%;
+}
+.colored-section{
+    background-color: #ff4c68;
+    color: #FFF;
+
+}
+.white-section{
+    background-color:#fff;
+}
+
+/* Navbar Section */
+.navbar{
+    padding: 0 0 5rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 3rem;
+    font-weight: 700;
+   
+}
+.nav-item{
+    padding-left: 20px;
+}
+
+
+/* This is applying in whole title section */
+
+    /* Since container-fluid is a bootstrap class, applying padding in this will be overridden by bootrap padding thatswhy we have to use below method     */
+    
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+
+
+/* Download buttons */
+.download-button{
+    margin: 5% 3% 0 0;
+}
+/* Top Phone image */
+.iphone{
+    width: 60%;
+    transform: rotate(25deg); 
+    position: absolute;
+    right: 25%;
+}
+
+/* Heading Section */
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+/* this is applied in both top and bottom heading */
+.top-heading{ 
+    font-size: 3.5rem;
+    line-height: 1.5;
+   font-weight: 900;
+   
+}
+/* This is heading of pricing section */
+.section-heading{
+    
+    line-height: 1.5; 
+    font-size: 3rem;   
+}
+
+
+/* Features Section */
+#features{
+    position: relative;
+
+}
+.icons{
+   font-size: 3rem;
+   color: #ef8172;
+}
+.icons:hover{
+    color: #ff5e76;
+}
+.imp{
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+.readit{
+    padding: 7%;
+    color: rgb(100, 100, 100);
+}
+
+
+
+/* Testimonials Section */
+#testimonials{
+   background-color:#ef8172 ;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;   
+}
+.btns{
+    border: none;
+    background-color: transparent;
+  
+   
+}
+.testimonial-text{
+    font-weight: bold;
+    line-height: 1.5; 
+    font-size: 2.5rem;
+}
+
+
+
+/* Press Section */
+#press{
+    background-color:#ef8172  ;
+    padding-bottom: 3%;
+}
+.press-img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* pricing section */
+#pricing{
+    padding: 100px;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+.price-heading{
+    font-weight: bold;
+    line-height: 1.5; 
+    font-size: 2.5rem;   
+}
+.price-name{
+    font-size: 1.5rem;
+   }
+
+
+
+/* Footer Section */
+#footer{
+    margin: 7% 0;
+}
+.social-icons{
+   padding: 0 1% 1%;
+}
+
+
+/* Media query */
+@media (max-width:988px){
+    /* For the top iphone image */
+    .iphone{
+        position: static;
+        transform: rotate(0);
+     padding-top: 10%;
+
+      
+       
+    }
+    /* For whole title section */
+    #title .container-fluid{
+        text-align: center;
+        padding: 3% 15% 7%;
+    }
+    /* For the toplink items:contscts,  download,etc. */
+    .nav-item{
+        text-align: left;
+    }
+
+}
