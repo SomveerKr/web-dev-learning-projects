@@ -1,0 +1,47 @@
+body {
+  padding-top: 50px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.btn-square {
+  width: 140px !important;
+  max-width: 100% !important;
+  max-height: 100% !important;
+  height: 140px !important;
+  text-align: center;
+  padding: 0px;
+  font-size: 12px;
+  margin: 10px 20px;
+  color: aliceblue;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+#rock {
+  background-image: url("images/rock.png");
+}
+#paper {
+  background-image: url("images/paper.png");
+}
+#scissors {
+  background-image: url("images/scissors.png");
+}
+#rock,
+#paper,
+#scissors {
+  position: relative;
+  background-position: center;
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.2); /* dark overlay */
+  background-blend-mode: darken;
+  color: #fff;
+  z-index: 1;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+.space {
+  padding-right: 60px;
+}

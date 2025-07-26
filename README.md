@@ -62,6 +62,10 @@ A browser-based drum kit game using JavaScript, HTML, and CSS. Users can play dr
 
 A simple dice game built with JavaScript, HTML, and CSS.
 
+### 15. rock-paper-scissors-game
+
+A simple, interactive Rock-Paper-Scissors game built with HTML, CSS, and JavaScript. Play against the computer using visual buttons for each choice. Responsive and modern design, runs entirely in your browser.
+
 ---
 
 ## About
